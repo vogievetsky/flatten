@@ -111,11 +111,11 @@ mxUserStyle 'young', """
 """
 
 # Wonky dash
-mxUserStyle 'dipti', """
-body {
-  -webkit-transform: rotate(1deg);
-}
-"""
+# mxUserStyle 'dipti', """
+# body {
+#   -webkit-transform: rotate(1deg);
+# }
+# """
 
 # Unblur
 mxUserStyle 'luca', """
