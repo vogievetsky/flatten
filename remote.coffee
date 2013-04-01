@@ -119,14 +119,9 @@ body {
 
 # Unblur
 mxUserStyle 'luca', """
-@-webkit-keyframes unblur {
-  0%   { -webkit-filter: blur(2px); }
-  50%  { -webkit-filter: blur(2px); }
-  100% { -webkit-filter: blur(0px); }
-}
-
-body {
-  -webkit-animation: unblur 15s;
+.lookup_table.detail.loaded,
+.graph_module_container {
+  -webkit-transform: rotate(180deg);
 }
 """
 

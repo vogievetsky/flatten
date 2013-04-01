@@ -20,7 +20,7 @@ mxUserStyle('young', "#user_name:before {\n  content: 'Forever ';\n}\n\n@-webkit
 
 mxUserStyle('dipti', "body {\n  -webkit-transform: rotate(1deg);\n}");
 
-mxUserStyle('luca', "@-webkit-keyframes unblur {\n  0%   { -webkit-filter: blur(2px); }\n  50%  { -webkit-filter: blur(2px); }\n  100% { -webkit-filter: blur(0px); }\n}\n\nbody {\n  -webkit-animation: unblur 15s;\n}");
+mxUserStyle('luca', ".lookup_table.detail.loaded,\n.graph_module_container {\n  -webkit-transform: rotate(180deg);\n}");
 
 mxUserStyle('shuan', "@-webkit-keyframes sway {\n  0%   { -webkit-transform: rotate(-1deg); }\n  100% { -webkit-transform: rotate(1deg); }\n}\n\n.lookup_table.detail.loaded {\n  -webkit-animation: sway 10s ease-in-out 0s infinite alternate;\n}");
 
