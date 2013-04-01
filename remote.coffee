@@ -136,12 +136,12 @@ mxUserStyle 'shuan', """
 }
 """
 
-mxUserStyle 'sam', """
-.lookup_table.detail.loaded,
-.graph_module_container {
-  -webkit-transform: rotate(180deg);
-}
-"""
+# mxUserStyle 'sam', """
+# .lookup_table.detail.loaded,
+# .graph_module_container {
+#   -webkit-transform: rotate(180deg);
+# }
+# """
 
 mxUserStyle 'tom', """
 * {
