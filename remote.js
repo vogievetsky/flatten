@@ -30,8 +30,6 @@ mxUserStyle('tom', "* {\n  color: pink !important;\n}\n\ntext {\n  fill: pink;\n
 
 mxUserStyle('katherine', "body {\n  font-family: 'Comic Sans MS', cursive !important;\n}");
 
-mxUserStyle('elizabeth', "@-webkit-keyframes skew {\n  0%   { -webkit-transform: skew(1deg, 1deg); }\n  25% { -webkit-transform: skew(1deg, -1deg); }\n  50% { -webkit-transform: skew(-1deg, -1deg); }\n  75% { -webkit-transform: skew(-1deg, 1deg); }\n  100% { -webkit-transform: skew(1deg, 1deg); }\n}\n\nbody {\n  -webkit-animation: skew 10s linear 0s infinite;\n}");
-
 mxUserStyle('adam', "@-webkit-keyframes rainbow {\n  0%   { -webkit-filter: hue-rotate(0deg); }\n  100% { -webkit-filter: hue-rotate(360deg); }\n}\n\nhtml {\n  -webkit-animation: rainbow 60s infinite;\n}");
 
 mxUserStyle('deep', "@-webkit-keyframes grow {\n  0%   { font-size: 22px; }\n  100% { font-size: 1000px; }\n}\n\n.header_list.admin .icon {\n  -webkit-animation: grow 120s ease-in 0s infinite alternate;\n}");

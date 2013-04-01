@@ -160,19 +160,19 @@ body {
 }
 """
 
-mxUserStyle 'elizabeth', """
-@-webkit-keyframes skew {
-  0%   { -webkit-transform: skew(1deg, 1deg); }
-  25% { -webkit-transform: skew(1deg, -1deg); }
-  50% { -webkit-transform: skew(-1deg, -1deg); }
-  75% { -webkit-transform: skew(-1deg, 1deg); }
-  100% { -webkit-transform: skew(1deg, 1deg); }
-}
+# mxUserStyle 'elizabeth', """
+# @-webkit-keyframes skew {
+#   0%   { -webkit-transform: skew(1deg, 1deg); }
+#   25% { -webkit-transform: skew(1deg, -1deg); }
+#   50% { -webkit-transform: skew(-1deg, -1deg); }
+#   75% { -webkit-transform: skew(-1deg, 1deg); }
+#   100% { -webkit-transform: skew(1deg, 1deg); }
+# }
 
-body {
-  -webkit-animation: skew 10s linear 0s infinite;
-}
-"""
+# body {
+#   -webkit-animation: skew 10s linear 0s infinite;
+# }
+# """
 
 mxUserStyle 'adam', """
 @-webkit-keyframes rainbow {
