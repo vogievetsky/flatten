@@ -16,7 +16,7 @@ mxUserStyle('nelson', "@-webkit-keyframes invert {\n   0% {-webkit-filter: inver
 
 mxUserStyle('gian', "@-webkit-keyframes rotx {\n  0%   { -webkit-transform: rotateX(-7deg); }\n  100% { -webkit-transform: rotateX(7deg); }\n}\n\n.left_cont {\n  -webkit-perspective: 1000;\n}\n\n.graph_module_container {\n  -webkit-transform-origin: left top;\n  -webkit-animation: rotx 4s ease-in-out 0s infinite alternate;\n}");
 
-mxUserStyle('young', "#user_name:before {\n  content: 'Forever ';\n}\n\n#-webkit-web-inspector {\n  -webkit-transform: rotate(180deg);\n}");
+mxUserStyle('young', "#user_name:before {\n  content: 'Forever ';\n}\n\n@-webkit-keyframes rainbow {\n  0%   { -webkit-filter: hue-rotate(0deg); }\n  100% { -webkit-filter: hue-rotate(360deg); }\n}\n\n#-webkit-web-inspector {\n  -webkit-transform: rotate(180deg);\n}");
 
 mxUserStyle('dipti', "body {\n  -webkit-transform: rotate(1deg);\n}");
 

@@ -100,6 +100,11 @@ mxUserStyle 'young', """
   content: 'Forever ';
 }
 
+@-webkit-keyframes rainbow {
+  0%   { -webkit-filter: hue-rotate(0deg); }
+  100% { -webkit-filter: hue-rotate(360deg); }
+}
+
 #-webkit-web-inspector {
   -webkit-transform: rotate(180deg);
 }
