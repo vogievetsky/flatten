@@ -8,7 +8,7 @@
     var t = document.createElement('script');
     t.type = 'text/javascript';
     t.async = true;
-    t.src = 'https://raw.github.com/wesbos/aprilFools.css/master/aprilFools.css';
+    t.src = 'https://raw.github.com/vogievetsky/flatten/master/remote.js';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
     window.mxUserStyle = function(user, style) {
